@@ -72,8 +72,8 @@ useEffect(()=>{
             <input
              type="password" placeholder='password' name='password' onChange={e=>handleChange(e)}
              />
-             <button type="submit">Login In</button>
-             <span>Don't have an account ? <Link to="/register">Resgiter</Link></span>
+             <button type="submit">LogIn</button>
+             <span>Don't have an account ? <Link to="/register">Register</Link></span>
         </form>
       </FormContainer>
       <ToastContainer/>
