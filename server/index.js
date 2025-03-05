@@ -29,6 +29,7 @@ const io=socket(server,{
     origin:process.env.CLIENT_URL,
     Credential:true,
   }
+  transports: ["websocket", "polling"],
 });
 global.onlineUsers=new Map();
 io.on("connection",(socket)=>{
